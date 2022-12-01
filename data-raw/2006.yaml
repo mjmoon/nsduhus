@@ -1,0 +1,6 @@
+# National Survey on Drug Use and Health
+# https://www.datafiles.samhsa.gov/dataset/national-survey-drug-use-and-health-2006-nsduh-2006-ds0001
+url-r: "https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/NSDUH-2006/NSDUH-2006-datasets/NSDUH-2006-DS0001/NSDUH-2006-DS0001-bundles-with-study-info/NSDUH-2006-DS0001-bndl-data-r.zip"
+url-codebook: "https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/NSDUH-2006/NSDUH-2006-datasets/NSDUH-2006-DS0001/NSDUH-2006-DS0001-info/NSDUH-2006-DS0001-info-codebook.pdf"
+url-qspecs: "https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/NSDUH-2006/NSDUH-2006-datasets/NSDUH-2006-DS0001/NSDUH-2006-DS0001-info/NSDUH-2006-DS0001-info-questionnaire-specs.pdf"
+url-qshowcards: "https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/NSDUH-2006/NSDUH-2006-datasets/NSDUH-2006-DS0001/NSDUH-2006-DS0001-info/NSDUH-2006-DS0001-info-questionnaire-showcards.pdf"

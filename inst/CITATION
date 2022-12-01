@@ -1,0 +1,10 @@
+citHeader("To cite nsduhus in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "US National Survey on Drug Use and Health Reader",
+  author   = "Michael Jongho Moon",
+  year     = "2022",
+  note     = "R package version 0.1.0 \\url{https://mjmoon.github.io/nsduhus}",
+  textVersion = "Moon, M.J. (2022). US National Survey on Drug Use and Health Reader. R package version 0.1.0 https://mjmoon.github.io/nsduhus"
+)

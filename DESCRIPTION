@@ -1,0 +1,26 @@
+Package: nsduhus
+Title: US National Survey on Drug Use and Health Reader
+Version: 0.1.0
+Authors@R: 
+    person("Michael Jongho", "Moon", , "michael.moon@mail.utoronto.ca", 
+    role = c("aut", "cre"))
+Description: A collection of helper functions for downloading and parsing 
+    the U.S. National Survey on Drug Use and Health.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RdMacros: Rdpack
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10),
+Imports: 
+    Rdpack,
+    httr (>= 1.4.4),
+    utils (>= 4.0.0)
+Suggests: 
+    testthat (>= 3.0.0),
+    withr (>= 2.5.0),
+    RCurl (>= 1.98),
+    pkgdown (>= 2.0.6)
+Config/testthat/edition: 3
+Config/testthat/parallel: true
