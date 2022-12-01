@@ -58,9 +58,11 @@ open_nsduhus_qspecs <- function(year) {
 open_nsduhus_qshowcards <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
     if (year == "2005") {
-      message(paste0("Questionnaire showcard for ", year,
-                     " was not available. Opening questionnaire shocard ",
-                     "for ", year - 1, " instead."))
+      message(paste0(
+        "Questionnaire showcard for ", year,
+        " was not available. Opening questionnaire shocard ",
+        "for ", year - 1, " instead."
+      ))
     }
     utils::browseURL(spec[[year]][["url-qshowcards"]])
   } else {
@@ -84,7 +86,8 @@ open_nsduhus_qshowcards <- function(year) {
 #' @export
 download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
   dest <- file.path(
-    ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus")
+    ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus"
+  )
   if (!dir.exists(dest)) dir.create(dest)
   timeout_ <- getOption("timeout")
   options(timeout = timeout)
@@ -134,9 +137,10 @@ download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
 #' \insertRef{nsduh}{nsduhus}
 #' @export
 uncompress_nsduhus_zip <- function(years = NULL, save_to_wd = FALSE,
-                                 read_from_wd = FALSE, unzip_method = "unzip") {
+                                   read_from_wd = FALSE, unzip_method = "unzip") {
   dest <- file.path(
-    ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus")
+    ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus"
+  )
   if (!dir.exists(dest)) dir.create(dest)
   zipdir <- file.path(
     ifelse(read_from_wd, getwd(), tempdir(check = TRUE)), "nsduhus"
