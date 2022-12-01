@@ -83,7 +83,8 @@ open_nsduhus_qshowcards <- function(year) {
 #' \insertRef{nsduh}{nsduhus}
 #' @export
 download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
-  dest <- file.path(ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus")
+  dest <- file.path(
+    ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus")
   if (!dir.exists(dest)) dir.create(dest)
   timeout_ <- getOption("timeout")
   options(timeout = timeout)
@@ -134,7 +135,8 @@ download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
 #' @export
 uncompress_nsduhus_zip <- function(years = NULL, save_to_wd = FALSE,
                                  read_from_wd = FALSE, unzip_method = "unzip") {
-  dest <- file.path(ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus")
+  dest <- file.path(
+    ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus")
   if (!dir.exists(dest)) dir.create(dest)
   zipdir <- file.path(
     ifelse(read_from_wd, getwd(), tempdir(check = TRUE)), "nsduhus"
@@ -196,7 +198,7 @@ load_nsduhus <- function(years = NULL, read_from_wd = FALSE) {
   for (year in years_matched) {
     file <- list.files(file.path(srcdir, year), full.names = TRUE)
     message(paste0("Loading year ", year, " from file ", file, "."))
-    tmp[[year]] <- loadRdata(file)
+    tmp[[year]] <- loadrdata(file)
   }
   tmp
 }
@@ -213,7 +215,7 @@ check_availability <- function(requested, available) {
   requested
 }
 
-loadRdata <- function(f) {
+loadrdata <- function(f) {
   load(f)
   get(ls()[ls() != "f"])
 }
