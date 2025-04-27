@@ -139,9 +139,8 @@ download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
 #' \insertRef{nsduh}{nsduhus}
 #' @export
 uncompress_nsduhus_zip <- function(
-  years = NULL, save_to_wd = FALSE,
-  read_from_wd = FALSE, unzip_method = "unzip"
-) {
+    years = NULL, save_to_wd = FALSE,
+    read_from_wd = FALSE, unzip_method = "unzip") {
   dest <- file.path(
     ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus"
   )
