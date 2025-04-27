@@ -1,0 +1,111 @@
+# National Survey on Drug Use and Health
+# https://www.datafiles.samhsa.gov/dataset/1
+2002:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2002-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2002-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2002-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2002-DS0001-info-questionnaire-showcards.pdf"
+2003:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2003-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2003-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2003-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2003-DS0001-info-questionnaire-showcards.pdf"
+2004:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2004-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2004-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2004-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2004-DS0001-info-questionnaire-showcards.pdf"
+2005:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2005-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2005-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2005-DS0001-info-questionnaire-specs.pdf"
+2006:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2006-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2006-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2006-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2006-DS0001-info-questionnaire-showcards.pdf"
+2007:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2007-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2007-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2007-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2007-DS0001-info-questionnaire-showcards.pdf"
+2008:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2008-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2008-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2008-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2008-DS0001-info-questionnaire-showcards.pdf"
+2009:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2009-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2009-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2009-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2009-DS0001-info-questionnaire-showcards.pdf"
+2010:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2010-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2010-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2010-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2010-DS0001-info-questionnaire-showcards.pdf"
+2011:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2011-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2011-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2011-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2011-DS0001-info-questionnaire-showcards.pdf"
+2012:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2012-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2012-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2012-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2012-DS0001-info-questionnaire-showcards.pdf"
+2013:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2013-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2013-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2013-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2013-DS0001-info-questionnaire-showcards.pdf"
+2014:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2014-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2014-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2014-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2014-DS0001-info-questionnaire-showcards.pdf"
+2015:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2015-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2015-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2015-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2015-DS0001-info-questionnaire-showcards.pdf"
+2016:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2016-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2016-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2016-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2016-DS0001-info-questionnaire-showcards.pdf"
+2017:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2017-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2017-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2017-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2017-DS0001-info-questionnaire-showcards.pdf"
+2018:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2018-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2018-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2018-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2018-DS0001-info-questionnaire-showcards.pdf"
+2019:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2019-DS0001-bndl-data-r.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2019-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2019-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2019-DS0001-info-questionnaire-showcards.pdf"
+2020:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2020-DS0001-bndl-data-r_v1.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2020-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2020-DS0001-info-questionnaire-specs.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2020-DS0001-info-questionnaire-showcards.pdf"
+2021:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2021-DS0001-bndl-data-r_v4.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2021-DS0001-info-codebook.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/2021NSDUHmrbCAISpecs011321.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/2021NSDUHmrbShowcards011321.pdf"
+2022:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2022-DS0001-bndl-data-r_v-2.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2022-DS0001-info-codebook_v2.pdf"
+  qspecs: "https://www.samhsa.gov/data/system/files/media-puf-file/2022NSDUHmrbCAISpecs070722.pdf"
+  qshowcards: "https://www.samhsa.gov/data/system/files/media-puf-file/2022NSDUHmrbShowcards070722.pdf"
+2023:
+  r: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2023-DS0001-bndl-data-r_v1.zip"
+  codebook: "https://www.samhsa.gov/data/system/files/media-puf-file/NSDUH-2023-DS0001-info-codebook_v1.pdf"
+  qspecs: "https://www.samhsa.gov/data/sites/default/files/reports/rpt39458/2023NSDUHmrbCAISpecs020223.pdf"
+  qshowcards: "https://www.samhsa.gov/data/sites/default/files/reports/rpt39460/2023NSDUHmrbShowcards020223.pdf"

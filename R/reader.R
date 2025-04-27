@@ -3,7 +3,7 @@
 #' @return A character vector of years available.
 #' @export
 get_nsduhus_available_years <- function() {
-  names(spec)
+  names(NSDUHUH_URLS)
 }
 
 #' Open the codebook from source.
@@ -19,7 +19,7 @@ get_nsduhus_available_years <- function() {
 #' @export
 open_nsduhus_codebook <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
-    utils::browseURL(spec[[year]][["url-codebook"]])
+    utils::browseURL(NSDUHUH_URLS[[year]][["codebook"]])
   } else {
     stop(paste0("Codebook for ", year, " not available yet."))
   }
@@ -38,7 +38,7 @@ open_nsduhus_codebook <- function(year) {
 #' @export
 open_nsduhus_qspecs <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
-    utils::browseURL(spec[[year]][["url-qspecs"]])
+    utils::browseURL(NSDUHUH_URLS[[year]][["qspecs"]])
   } else {
     stop(paste0("Questionaire specs for ", year, " not available yet."))
   }
@@ -58,13 +58,12 @@ open_nsduhus_qspecs <- function(year) {
 open_nsduhus_qshowcards <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
     if (year == "2005") {
-      message(paste0(
-        "Questionnaire showcard for ", year,
-        " was not available. Opening questionnaire shocard ",
-        "for ", year - 1, " instead."
-      ))
+      message(paste0("Questionnaire showcard for ", year,
+                     " was not available. Opening questionnaire shocard ",
+                     "for ", year - 1, " instead."))
+      year <- year - 1
     }
-    utils::browseURL(spec[[year]][["url-qshowcards"]])
+    utils::browseURL(NSDUHUH_URLS[[year]][["qshowcards"]])
   } else {
     stop(paste0("Questionaire showcards for ", year, " not available yet."))
   }
@@ -97,7 +96,7 @@ download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
     tryCatch(
       {
         dest_file <- file.path(dest, paste0(year, ".zip"))
-        url <- spec[[year]][["url-r"]]
+        url <- NSDUHUH_URLS[[year]][["r"]]
         message(paste0("Downloading file ", url, " to ", dest_file))
         resp <- httr::GET(
           url, httr::write_disk(dest_file, overwrite = TRUE),
