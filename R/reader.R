@@ -58,9 +58,11 @@ open_nsduhus_qspecs <- function(year) {
 open_nsduhus_qshowcards <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
     if (year == "2005") {
-      message(paste0("Questionnaire showcard for ", year,
-                     " was not available. Opening questionnaire shocard ",
-                     "for ", year - 1, " instead."))
+      message(paste0(
+        "Questionnaire showcard for ", year,
+        " was not available. Opening questionnaire shocard ",
+        "for ", year - 1, " instead."
+      ))
       year <- year - 1
     }
     utils::browseURL(NSDUHUH_URLS[[year]][["qshowcards"]])
