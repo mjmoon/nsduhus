@@ -44,7 +44,8 @@ test_that("Downloaded files are saved and uncompressed locally.", {
     code = {
       download_new <- download_nsduhus_zip(year, save_to_wd = TRUE)
       uncompress_new <- uncompress_nsduhus_zip(
-        year, save_to_wd = TRUE, read_from_wd = TRUE)
+        year, save_to_wd = TRUE, read_from_wd = TRUE
+      )
       expect_true(download_new)
       expect_true(uncompress_new)
       downloaded_files <- list.files(file.path(new, "nsduhus"), "*\\.zip")
@@ -59,8 +60,9 @@ test_that("Unavilable years are ignored.", {
     new = new,
     code = {
       expect_warning(download_nsduhus_zip(year_unavailable, save_to_wd = TRUE))
-      expect_warning(download_nsduhus_zip(
-        c(year, year_unavailable), save_to_wd = TRUE))
+      expect_warning(
+        download_nsduhus_zip(c(year, year_unavailable), save_to_wd = TRUE)
+      )
       downloaded_files <- list.files(file.path(new, "nsduhus"), "*\\.zip")
       expect_true(paste0(year, ".zip") %in% downloaded_files)
       expect_false(paste0(year_unavailable, ".zip") %in% downloaded_files)

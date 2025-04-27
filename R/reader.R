@@ -1,9 +1,10 @@
+utils::globalVariables("nsduh_download_urls", package = "nsduhus")
 #' Print years available for download with the package.
 #'
 #' @return A character vector of years available.
 #' @export
 get_nsduhus_available_years <- function() {
-  names(NSDUHUH_URLS)
+  names(nsduh_download_urls)
 }
 
 #' Open the codebook from source.
@@ -19,7 +20,7 @@ get_nsduhus_available_years <- function() {
 #' @export
 open_nsduhus_codebook <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
-    utils::browseURL(NSDUHUH_URLS[[year]][["codebook"]])
+    utils::browseURL(nsduh_download_urls[[year]][["codebook"]])
   } else {
     stop(paste0("Codebook for ", year, " not available yet."))
   }
@@ -38,7 +39,7 @@ open_nsduhus_codebook <- function(year) {
 #' @export
 open_nsduhus_qspecs <- function(year) {
   if (year %in% get_nsduhus_available_years()) {
-    utils::browseURL(NSDUHUH_URLS[[year]][["qspecs"]])
+    utils::browseURL(nsduh_download_urls[[year]][["qspecs"]])
   } else {
     stop(paste0("Questionaire specs for ", year, " not available yet."))
   }
@@ -65,7 +66,7 @@ open_nsduhus_qshowcards <- function(year) {
       ))
       year <- year - 1
     }
-    utils::browseURL(NSDUHUH_URLS[[year]][["qshowcards"]])
+    utils::browseURL(nsduh_download_urls[[year]][["qshowcards"]])
   } else {
     stop(paste0("Questionaire showcards for ", year, " not available yet."))
   }
@@ -98,7 +99,7 @@ download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
     tryCatch(
       {
         dest_file <- file.path(dest, paste0(year, ".zip"))
-        url <- NSDUHUH_URLS[[year]][["r"]]
+        url <- nsduh_download_urls[[year]][["r"]]
         message(paste0("Downloading file ", url, " to ", dest_file))
         resp <- httr::GET(
           url, httr::write_disk(dest_file, overwrite = TRUE),
@@ -137,8 +138,10 @@ download_nsduhus_zip <- function(years, save_to_wd = FALSE, timeout = 3600) {
 #' @references
 #' \insertRef{nsduh}{nsduhus}
 #' @export
-uncompress_nsduhus_zip <- function(years = NULL, save_to_wd = FALSE,
-                                   read_from_wd = FALSE, unzip_method = "unzip") {
+uncompress_nsduhus_zip <- function(
+  years = NULL, save_to_wd = FALSE,
+  read_from_wd = FALSE, unzip_method = "unzip"
+) {
   dest <- file.path(
     ifelse(save_to_wd, getwd(), tempdir(check = TRUE)), "nsduhus"
   )
